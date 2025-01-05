@@ -1,0 +1,69 @@
+/*untuk header*/
+.main-nav {
+    background-color: #1C102D;
+}
+.main-nav .navbar-nav a.nav-link{
+    color:#D9FFD7;
+    font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link,.main-nav .navbar-nav .nav-link:hover{
+    color: #9ef01a;
+}
+.navbar.scrolled{
+    background-color: #D9FFD7;
+    transition: bacground-color 0.5s ease;
+    box-shadow: 0px -10px 30px #666;
+}
+.navbar.scrolled a.nav-link{
+    color: #666;
+}
+.navbar img.main-logo{
+    max-width: 150px;
+}
+.navbar img.main-logo-hitam {
+    display: none;
+}
+.navbar.scrolled img.main-logo-hitam{
+    display: inline-block;
+}
+.navbar.scrolled img.main-logo-putih {
+    display: none;
+}
+
+/*untuk global*/
+.main-biru {
+    background-color: #1C102D;
+    color: #D9FFD7;
+}
+.main-biru h2 span {
+    color: #9ef01a;
+}
+button.btn-warning {
+    background-color: #9ef01a;
+}
+
+h2.main-judul::after {
+    margin:auto;
+    margin-top:20px;
+    display: block;
+    border-bottom:10px solid #9ef01a;
+    width: 1OOpx;
+    border-radius: 25px;
+    content: "";
+
+}
+.main-grey{
+    background-color: #f9f9f9;
+}
+/*untuk bagian kolaborasi*/
+#main-kolaborasi img {
+    max-height: 50px;
+    max-width: 150px;
+}
+#main-kolaborasi a {
+    display:inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
